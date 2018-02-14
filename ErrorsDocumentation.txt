@@ -1,0 +1,2 @@
+5001 - Invalid Message recieved (default case of all loops in QMH)
+5002 - INI-File for Server not found
