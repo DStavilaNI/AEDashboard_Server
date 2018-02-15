@@ -1,16 +1,16 @@
 <Cluster>
 <Name>ServerINI</Name>
-<NumElts>5</NumElts>
+<NumElts>4</NumElts>
 <U32>
 <Name>ClientTimeout (s)</Name>
 <Val>30</Val>
 </U32>
 <Path>
 <Name>LogPath</Name>
-<Val>C:\Users\jgoebel\Documents\GitHub\AEDashboard_Manual_Workingdir\AEDashboard\ServerLib\Data\ServerLog.tdms</Val>
+<Val>C:\Users\hustavid\Desktop\AEDashboardRepository\AEDashboard\ServerLib\Data\ServerLog.tdms</Val>
 </Path>
 <Array>
-<Name>ErrorsToIgnore</Name>
+<Name>CriticalErrors</Name>
 <Dimsize>0</Dimsize>
 <I32>
 <Name>specific error code to clear (0: all)</Name>
@@ -32,29 +32,5 @@
 <Name>Password</Name>
 <Val>p4nCak3</Val>
 </String>
-</Cluster>
-<Cluster>
-<Name>ClientConfig</Name>
-<NumElts>1</NumElts>
-<Array>
-<Name>ColorCodes</Name>
-<Dimsize>4</Dimsize>
-<U32>
-<Name>Color Box</Name>
-<Val>16711680</Val>
-</U32>
-<U32>
-<Name>Color Box</Name>
-<Val>6618880</Val>
-</U32>
-<U32>
-<Name>Color Box</Name>
-<Val>16777175</Val>
-</U32>
-<U32>
-<Name>Color Box</Name>
-<Val>9567230</Val>
-</U32>
-</Array>
 </Cluster>
 </Cluster>

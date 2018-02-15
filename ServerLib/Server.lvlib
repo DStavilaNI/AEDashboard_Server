@@ -47,7 +47,6 @@
 		<Item Name="WriteINI.vi" Type="VI" URL="../SubVIs/WriteINI.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
-		<Item Name="ClientConfiguration.ctl" Type="VI" URL="../TypeDefs/ClientConfiguration.ctl"/>
 		<Item Name="ClientData.ctl" Type="VI" URL="../TypeDefs/ClientData.ctl"/>
 		<Item Name="ClientList.ctl" Type="VI" URL="../TypeDefs/ClientList.ctl"/>
 		<Item Name="ServerINI.ctl" Type="VI" URL="../TypeDefs/ServerINI.ctl"/>
