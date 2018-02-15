@@ -49,6 +49,7 @@
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="ClientData.ctl" Type="VI" URL="../TypeDefs/ClientData.ctl"/>
 		<Item Name="ClientList.ctl" Type="VI" URL="../TypeDefs/ClientList.ctl"/>
+		<Item Name="GetSRsResponse.ctl" Type="VI" URL="../TypeDefs/GetSRsResponse.ctl"/>
 		<Item Name="ServerINI.ctl" Type="VI" URL="../TypeDefs/ServerINI.ctl"/>
 		<Item Name="SR Data.ctl" Type="VI" URL="../TypeDefs/SR Data.ctl"/>
 		<Item Name="SR List.ctl" Type="VI" URL="../TypeDefs/SR List.ctl"/>
