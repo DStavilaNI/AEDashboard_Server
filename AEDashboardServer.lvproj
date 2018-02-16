@@ -65,13 +65,13 @@
 						<Property Name="ws.useStandardURL" Type="Bool">true</Property>
 					</Item>
 					<Item Name="Heartbeat.vi" Type="VI" URL="../Webservice/Methods/Heartbeat.vi">
-						<Property Name="ws.buffered" Type="Bool">true</Property>
+						<Property Name="ws.buffered" Type="Bool">false</Property>
 						<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
 						<Property Name="ws.keepInMemory" Type="Bool">true</Property>
 						<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
 						<Property Name="ws.method" Type="Int">1</Property>
 						<Property Name="ws.outputFormat" Type="Int">2</Property>
-						<Property Name="ws.outputType" Type="Int">0</Property>
+						<Property Name="ws.outputType" Type="Int">1</Property>
 						<Property Name="ws.permissions" Type="Str"></Property>
 						<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
 						<Property Name="ws.type" Type="Int">1</Property>

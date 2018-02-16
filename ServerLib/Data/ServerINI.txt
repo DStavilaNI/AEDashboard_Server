@@ -7,7 +7,7 @@
 </U32>
 <Path>
 <Name>LogPath</Name>
-<Val>C:\Users\dfulop\Desktop\Senior AE\AE Dashboard\ServerSources\ServerLib\Data\ServerLog.tdms</Val>
+<Val>C:\Users\Budapest AE Server\Desktop\AE Dashboard\ServerSources\ServerLib\Data\ServerLog.tdms</Val>
 </Path>
 <Array>
 <Name>CriticalErrors</Name>
@@ -22,7 +22,7 @@
 <NumElts>3</NumElts>
 <String>
 <Name>DBname</Name>
-<Val>Oracle Test</Val>
+<Val>Oracle ODBC</Val>
 </String>
 <String>
 <Name>User</Name>
