@@ -32,7 +32,7 @@
 		<Item Name="WebServices" Type="Folder">
 			<Item Name="DashboardService" Type="Web Service">
 				<Property Name="Bld_buildSpecName" Type="Str"></Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 				<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 				<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -44,7 +44,7 @@
 				<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 				<Property Name="ws.SSE2" Type="Bool">true</Property>
 				<Property Name="ws.static_permissions" Type="Str"></Property>
-				<Property Name="ws.version.build" Type="Int">4</Property>
+				<Property Name="ws.version.build" Type="Int">6</Property>
 				<Property Name="ws.version.fix" Type="Int">0</Property>
 				<Property Name="ws.version.major" Type="Int">1</Property>
 				<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -138,6 +138,50 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="DashboardServer" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{8A993B50-4FAC-4998-A566-2C47532715A9}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{29D17AF1-5045-4986-A606-D310B8E52305}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_webService.count" Type="Int">1</Property>
+				<Property Name="App_webService[0].itemID" Type="Ref">/My Computer/WebServices/DashboardService</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6BAF5C48-7B81-4EF4-8596-9F66479455FD}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DashboardServer</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{7D124BB3-B9AA-43CC-B7BD-5C99E6FEAC30}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">DashboardServer.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/DashboardServer.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3975DC7E-96DD-42A4-8BBA-A39AAED09BED}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Server.lvlib/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DashboardServer</Property>
+				<Property Name="TgtF_internalName" Type="Str">DashboardServer</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">DashboardServer</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B973E387-9D19-456A-9145-8706686078DF}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DashboardServer.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
