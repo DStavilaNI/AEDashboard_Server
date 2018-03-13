@@ -7,7 +7,7 @@
 </U32>
 <Path>
 <Name>LogPath</Name>
-<Val>C:\Users\hustavid\Desktop\AEDashboardRepository\AEDashboard_Server\ServerLib\Data\ServerLog.tdms</Val>
+<Val>D:\AEDashboardServer\DashboardRepos\AEDashboard_Server\ServerLib\Data\ServerLog.tdms</Val>
 </Path>
 <Array>
 <Name>CriticalErrors</Name>
